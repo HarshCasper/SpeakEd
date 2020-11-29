@@ -1,6 +1,8 @@
 ![SpeakEd](https://socialify.git.ci/harshcasper/speaked/image?description=1&font=KoHo&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
 ## Project Abstract 🙋
 
+[![Join the chat at https://gitter.im/vidhibhasa/SpeakEd](https://badges.gitter.im/vidhibhasa/SpeakEd.svg)](https://gitter.im/vidhibhasa/SpeakEd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 SpeakEd is a Community Platform developed for Community Leads and Volunteers as well as Speakers to come on a single Unified Platforms leading to greater visibility, helping you to find the right Speaker for your Event. With an integrated Portfolio Feature for Speakers, you would be able to find the Events, Workshops or Podcasts they have spoken at, and will allow you to contact them at ease in a secure manner. Speakers would be able to build their Portfolio around this, showcasing the speaking skills they have got along with the expertise and clarity that possess while teaching or instructing someone. This Community Application would allow Speakers to connect with Community Leads/Volunteers over their love for Community Building and helping out each other in an effective way, benefitting the Community in the longer run.
 
 ## Project Background💡
