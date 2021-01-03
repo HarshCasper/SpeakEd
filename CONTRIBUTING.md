@@ -12,7 +12,7 @@ Here are the guidelines to contribute to this open source project.
 ### Fork the Repository
 Firstly, you need a copy of this repository in your own GitHub account. For forking the repository press **Fork** button to initiate the git forking process.
 
-![Forking](./client/src/utils/Fork.png)
+![Forking](https://imgur.com/a/62pCnHN)
 
 >You will see a copy of this repository in your GitHub account.
 
@@ -21,11 +21,11 @@ After forking the repository you need a copy of it in your local machine.
 1. To clone the repository, go to your forked repository page in your GitHub account.
 2. Press Clone button.
 
-    ![Clone](./client/src/utils/Clone.png)
+    ![Clone](https://imgur.com/a/Vzb398x)
 
 3. Select the URL option you prefer to clone the repository onto your local machine or you can download it as a `zip` file. For demonstration purpose we will use HTTPs URL to clone the repository. In the "Clone with HTTPs" section, copy the URL for your repository.
 
-     ![Cloneoptions](./client/src/utils/CloneOptions.png)
+     ![Cloneoptions](https://imgur.com/a/MyKZCcx)
 
 4. Once done, open **Git Bash** on your sytem and change your current working directory to the location where you would like to clone your repository. 
 5. Once navigated to the directory, use this command to clone the repository in your directory: 
@@ -39,7 +39,7 @@ In this stage, you need to set up a new remote to **sync your local repository**
 1. To add the original repository as an upstream remote:
     * Copy the URL of upstream repo
       
-      ![Upstream](./client/src/utils/Upstream.png)
+      ![Upstream](https://imgur.com/a/BPYFnWx)
 
     * Use the following command in your terminal
 
@@ -117,11 +117,3 @@ To create a PR you need to push your branch to the `origin` remote.
 * [Git Started with GitHub](https://www.udemy.com/course/git-started-with-github/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-.eo946O7LA.e_kedPDtXLw&utm_medium=udemyads&utm_source=aff-campaign)
 * [Learn Git: Everything You Need To Know](https://www.udemy.com/course/learngit/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-K5pDC6IWSDnHLwh8jTAbEg&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
 * [The beginner's guide to contribute to a GitHub project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
-
-
-
-
-
-
-
-
