@@ -12,7 +12,7 @@ Here are the guidelines to contribute to this open source project.
 ### Fork the Repository
 Firstly, you need a copy of this repository in your own GitHub account. For forking the repository press **Fork** button to initiate the git forking process.
 
-![Forking](https://imgur.com/a/62pCnHN)
+![Forking](https://i.imgur.com/xXV2zFp.png)
 
 >You will see a copy of this repository in your GitHub account.
 
@@ -21,11 +21,11 @@ After forking the repository you need a copy of it in your local machine.
 1. To clone the repository, go to your forked repository page in your GitHub account.
 2. Press Clone button.
 
-    ![Clone](https://imgur.com/a/Vzb398x)
+    ![Clone](https://i.imgur.com/th0FTgr.png)
 
 3. Select the URL option you prefer to clone the repository onto your local machine or you can download it as a `zip` file. For demonstration purpose we will use HTTPs URL to clone the repository. In the "Clone with HTTPs" section, copy the URL for your repository.
 
-     ![Cloneoptions](https://imgur.com/a/MyKZCcx)
+     ![Cloneoptions](https://i.imgur.com/O0yIRW7.png)
 
 4. Once done, open **Git Bash** on your sytem and change your current working directory to the location where you would like to clone your repository. 
 5. Once navigated to the directory, use this command to clone the repository in your directory: 
@@ -39,7 +39,7 @@ In this stage, you need to set up a new remote to **sync your local repository**
 1. To add the original repository as an upstream remote:
     * Copy the URL of upstream repo
       
-      ![Upstream](https://imgur.com/a/BPYFnWx)
+      ![Upstream](https://i.imgur.com/o5s6DdU.png)
 
     * Use the following command in your terminal
 
