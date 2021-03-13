@@ -16,11 +16,11 @@ This will start the server at localhost:5000
 
 ### Get request
 
-`curl --location --request GET 'localhost:5000/test'`
+`curl --location --request GET "localhost:5000/test"`
 
 ### Post request
 
-`curl --location --request POST 'localhost:5000/test'`
+`curl --location --request POST "localhost:5000/test"`
 
 ## DEBUG settings
 
