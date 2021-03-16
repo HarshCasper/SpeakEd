@@ -23,4 +23,4 @@ api.add_resource(TestRoute, "/test")
 
 
 if __name__ == "__main__":
-    app.run(debug=DEBUG)
+    app.run(host='0.0.0.0', debug=DEBUG)
