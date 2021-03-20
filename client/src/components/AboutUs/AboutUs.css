@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Montserrat+Alternates:wght@500&family=Patua+One&display=swap');
+.aboutus{
+    padding: 50px;
+}
+
+.aboutus__maindiv {
+    display: flex;
+}
+
+.aboutus-text-div {
+    /* margin-left: 0px; */
+    margin-top: 30px;
+    /* display: flex; */
+}
+
+.aboutus__maindiv > * {
+    flex : 1 ;
+    margin-bottom: 30px;
+}
+
+.aboutus__imageDiv > img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.aboutus__heading{
+    /* We Love Developers */
+
+/* position: absolute; */
+height: 65px;
+left: 50.93%;
+right: 34.53%;
+top: calc(50% - 65px/2 - 2501.5px);
+color: #FD749B;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 65px;
+/* identical to box height, or 232% */
+
+
+}
+
+.aboutus-text {
+    padding: 10px;
+}
+
+.button-greeting-div{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+    color: #9B14EE;
+
+}
+.aboutus-text-subtitle {
+  
+/* position: absolute; */
+height: 348px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 35px;
+/* or 250% */
+
+color: #333333;
+
+
+}
+
+.aboutus-text {
+  font-size: 18px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .aboutus-heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+      .aboutus {
+        margin-top: 200px;
+      }
+
+    .aboutus__heading {
+      font-size: 30px;
+      text-align: center;
+      height: 65px;
+left: 50.93%;
+right: 34.53%;
+top: calc(50% - 65px/2 - 2501.5px);
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 65px;
+      /* font-family: 'Patua One', cursive; */
+    }
+    .button-greeting-div {
+        justify-content: space-around;
+        margin-left: 50px;
+        margin-top: 100px;
+      }
+
+    .aboutus__maindiv{
+      flex-direction: column;
+    }
+    .aboutus-text-div {
+      margin-left: 0px;
+      margin: 20px;
+    }
+    .aboutus-text {
+      font-size: 23px;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .aboutus-text-subtitle {
+      font-size: 18px;
+      text-align: center;
+      /* margin-top: 10px; */
+      font-family: 'Lexend Giga', sans-serif;
+      
+    }
+    .aboutus__imageDiv {
+      /* display: none; */
+      order: 0;
+    }
+  }
