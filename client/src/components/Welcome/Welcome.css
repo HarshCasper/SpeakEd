@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 4rem;
+  }
+
+  /* text title */
+  
+  
+  .greet-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+  }
+  
+  .greeting-main {
+    display: flex;
+  }
+  
+  .subTitle {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #0A0909;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+  
+  .greeting-main {
+    display: flex;
+  }
+  
+  .greeting-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  .button-greeting-div {
+    display: flex;
+    margin-top:20px; 
+  }
+  
+  .greeting-text {
+
+/* position: absolute; */
+height: 144px;
+left: 10.8%;
+right: 53.13%;
+top: calc(50% - 144px/2 - 3094px);
+color: var(--mine-shaft);
+font-family: "Poppins", Helvetica;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+
+
+  }
+
+  
+  
+  .greeting-text-p {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  
+  .greeting-image-div > img {
+    max-width: 200%;
+    height: auto;
+    /* margin-top: -50px; */
+  }
+
+  .greeting-text-div {
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .greeting-text {
+      font-size: 50px;
+    }
+    .greeting-text-p {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .button-greeting-div {
+        justify-content: space-around;
+        margin-left: 50px;
+    }
+    .greeting-text {
+      font-size: 30px;
+      text-align: center;
+    }
+    .greeting-text-p {
+      font-size: 18px;
+      padding: 10px;
+      line-height: normal;
+      text-align: center;
+    }
+    .greeting-main {
+      display: block;
+    }
+    .greeting-image-div{
+      height: 256px;
+      padding-top: 10px;
+    }
+  }
+  
+  @media (max-width: 320px){
+    .main{
+      width: auto;
+    }
+  } 
