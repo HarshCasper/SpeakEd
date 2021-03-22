@@ -2,15 +2,9 @@
 
 To set up the dev environment follow the given steps
 
-## Installing dependencies
+Requirement fullfilled by Docker
 
-`pip install -r requirements.txt`
-
-## Launching the server
-
-`python app.py`
-
-This will start the server at localhost:5000
+Server live at localhost:5000
 
 ## Sample Requests
 

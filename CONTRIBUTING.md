@@ -53,19 +53,11 @@ To add the original repository as an upstream remote:
   >origin- which points to your GitHub fork of the project.  
   >upstream- which points to the original project's GitHub repository.            
 
-### To run the project in development mode
-* To install the dependencies, use this command in your terminal:
-
-  ```sh
-  npm install
-  ```
-
-* After the installation process is completed, use this command to run the app in development mode:
-
-  ```sh
-  npm start
-  ```          
-
+### To Run the project
+* Install [docker](https://docs.docker.com/engine/install/) from here for your operating system
+* Once docker is installed, go to the root directory and run the following two commands.
+  * `docker-compose build`
+  * `docker-compose up`
 ## Your first Contribution
 Unsure where to begin contributing to SpeakEd? 😕<br /> 
 Look for issues tagged with [good first issue](https://github.com/HarshCasper/SpeakEd/contribute).
