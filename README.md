@@ -49,3 +49,14 @@ This would be an enriching experience for all Student Developers, Project Manage
 ## License📜
 
 [MIT License](https://github.com/HarshCasper/SpeakEd/blob/main/LICENSE)
+
+## Contributors
+ 
+<table>
+	<tr>
+	     <td>
+		 <a href="https://github.com/HarshCasper/SpeakEd/graphs/contributors"><img src="https://contrib.rocks/image?repo=HarshCasper/SpeakEd" /></a>
+	     </td>
+        </tr>
+</table>
+
