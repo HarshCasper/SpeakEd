@@ -9,17 +9,14 @@ api = Api(app)
 DEBUG = False
 
 
-class TestRoute(Resource):
-    '''This is a mock route used for structuring the application'''
-
-    def get(self):
-        return {"message": "Welcome to the API!"}, 200
-
-    def post(self):
-        return{"message": "Welcome to the post route"}, 200
+@app.route('/Login',methods=['GET','POST'])
+def Login():
+    return 'Login Page'
 
 
-api.add_resource(TestRoute, "/test")
+@app.route('/SignUp',methods=['GET','POST'])
+def SignUp():
+    return 'Sign Up Page'
 
 
 if __name__ == "__main__":
