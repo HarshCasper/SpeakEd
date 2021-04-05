@@ -1,0 +1,85 @@
+
+.speakersop__info{
+width: 900px;
+height: 325px;
+left: 202px;
+top: 2685px;
+padding: 20px;
+margin-left: 250px;
+margin-top: 100px;
+margin-bottom: 100px;
+
+background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+border-radius: 24px;
+
+}
+
+.speakerop__heading {
+text-align: center;
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 48px;
+color: #FFFFFF;
+
+
+}
+.speakop-text-subtitle {
+    height: 348px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #FFFBF7;
+    mix-blend-mode: normal;
+    
+    }
+
+
+.speaker__info {
+    margin-left: 0px;
+      margin: 20px;
+}
+
+.speakersop__maindiv {
+    display: flex;
+}
+.speakersop-text-div {
+    margin-top: 30px;
+}
+
+.speakersop__img > img {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.speakers__name {
+    flex-direction: column;
+    display: flex;
+    margin-left:230px;
+margin-top: -120px;
+}
+
+.speakers__name >h2 {
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 48px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+
+}
+
+.speakers__name >h4 {
+margin-top: -20px;
+font-family: Mulish;
+font-style: normal;
+font-size: 15px;
+line-height: 48px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+
