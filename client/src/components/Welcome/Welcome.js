@@ -1,8 +1,4 @@
-// import React from 'react'
 import { greeting, illustration } from '../../SpeakEd'
-import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
-// import { Fade } from 'react-reveal';
-// css
 import './Welcome.css'
 
 // import ButtonOne from '../Button/ButtonOne';

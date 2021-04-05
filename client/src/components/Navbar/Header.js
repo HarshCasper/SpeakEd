@@ -1,14 +1,10 @@
 import React from 'react'
 import Headroom from 'react-headroom'
 import { BrowserRouter as Router, Link, NavLink } from 'react-router-dom';
-
-// import speaked json data
 import {welcomePage , aboutusData , speakersData ,contactData,eventsData } from '../../SpeakEd'
 import './Header.css'
 
 function Header() {
-
-    
     const viewWelcome = welcomePage.display;
     const viewAboutUs = aboutusData.display;
     const viewSpeakers = speakersData.display;
@@ -16,9 +12,8 @@ function Header() {
     const viewEvents = eventsData.display;
 
     return (
-          <Router>
+        <Router>
         <div>
-            {/* install headroom  */}
             <Headroom>
                 <header className = 'header'>
                 <a href="" id = 'splash' className="logo"></a>
@@ -30,10 +25,6 @@ function Header() {
         >
           <span className='navicon'></span>
         </label>
-                    {/* logo */}
-
-                    {/* components */}
-
                     <ul className = 'menu'> 
               {viewWelcome && (
               <li>
