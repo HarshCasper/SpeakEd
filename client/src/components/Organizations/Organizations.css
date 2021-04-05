@@ -1,0 +1,47 @@
+.organization__title {
+margin-right: -10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+font-size: 30px;
+text-align: center;
+
+}
+.org__images {
+    display: flex;
+}
+.org__imagestwo {
+    display: flex;
+}
+.org__imgone > img{
+
+    height: 50px;
+  width: 180px;
+  margin-left: 200px;
+  margin-top: 100px;
+
+
+}
+
+.org__imgtwo > img {
+    height: 60px;
+    width: 180px;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+
+.org__imgthree > img {
+    height: 100px;
+    width: 120px;
+    margin-left: 425px;
+    margin-top: 50px;
+}
+
+.org__imgfour > img{
+    height: 100px;
+    width: 150px;
+    margin-left: 270px;
+    margin-top: 50px;
+}

@@ -1,0 +1,23 @@
+version: "3"
+services:
+  client:
+    container_name: client
+    build: ./client
+    ports:
+      - "3000:3000"
+      - "35729:35729" 
+    environment: 
+      - CHOKIDAR_USEPOLLING=true
+    volumes: 
+      - ./client:/usr/src/app
+      - /usr/src/app/node_modules
+
+  server:
+    container_name: server
+    build: ./server
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+      - FLASK_APP=app.py
+      - FLASK_DEBUG=1
