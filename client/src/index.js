@@ -1,7 +1,5 @@
-  
 import React from 'react';
 import ReactDOM from 'react-dom';
-import info from './components/InfoSection/info'; 
 import App from './App'
 
 

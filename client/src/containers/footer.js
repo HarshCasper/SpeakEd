@@ -3,7 +3,7 @@ import Footer from '../components/footer'
 
 import SocialMedia from '../components/icons/SocialMedia'
 
-export function FooterContainer(){
+function FooterContainer(){
     return(
         <Footer>
           <Footer.Wrapper>
@@ -24,8 +24,8 @@ export function FooterContainer(){
 
                 <Footer.Column>
                     <Footer.Title>Contact Us</Footer.Title>
-                    <Footer.Row>speaker2021@gmail.com</Footer.Row>
-                    <Footer.Column>9987339305</Footer.Column>
+                    <Footer.Row>demo@gmail.com</Footer.Row>
+                    <Footer.Column>XXXXXXXXX</Footer.Column>
                 </Footer.Column>
                 <Footer.Column>
                     <Footer.Title>SpeakEd Speakers</Footer.Title>
@@ -36,3 +36,4 @@ export function FooterContainer(){
     )
 }
 
+export default FooterContainer

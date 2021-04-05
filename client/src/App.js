@@ -7,7 +7,7 @@ import Organizations from './components/Organizations/Organizations'
 import Speakers from './components/Speakers/Speakers'
 import SpeakersOpinion from './components/SpeakersOpinion/SpeakersOpinion'
 import Welcome from './components/Welcome/Welcome'
-import Footer from './components/footer'
+import FooterContainer from './containers/footer'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Speakers></Speakers>
         <Organizations></Organizations>
         <SpeakersOpinion></SpeakersOpinion>
-        <Footer></Footer>
+        <FooterContainer></FooterContainer>
       </Route>
     </Switch>
   </Router>
