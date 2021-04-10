@@ -1,0 +1,29 @@
+name: Test Server Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: Install dependencies
+        run: |
+          cd server
+          python3 -m pip install --upgrade pip
+          pip3 install -r requirements.txt
+      - name: Run Tests
+        run: |
+          cd server
+          python3 -m pytest conftest.py
