@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .speakers__heading {
   height: 65px;
@@ -75,30 +76,39 @@ color: #333333;
   border-radius: 5px;
   max-width: 300px;
   min-width: 300px;
-  min-height: 390px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   -webkit-box-shadow: 1px 1px 13px #000000;
   box-shadow: 1px 1px 13px #000000;
-  background-color: #9C69E2;
+  background: #EECDA3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.card-section .card h3 {
+.card-section .card h2, h3 {
   color: #f8f8f8;
-  font-size: 25px;
   padding: 10px;
-  font-family: Mulish;
-font-style: normal;
-font-size: 30px;
-
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.card-section .card p {
-  max-height: 220px;
-  font-family: Mulish;
-font-style: normal;
-font-size: 20px;
-  overflow: auto;
+.card-section .card h2 {
+  border-bottom: 1px solid #fff;
+}
+
+.card ul li,
+.card ul li p {
+  font-family: 'monospace';
+  font-style: normal;
+  font-size: 1.15rem;
+  overflow: none;
   color: #ffffff;
-  padding: 15px;
 }
 
 .card-section .card img {
@@ -111,12 +121,19 @@ font-size: 20px;
   border-radius: 60px;
 }
 
+.card-content li {
+  margin: 0.5em 0;
+}
+
 .card-section .card .card-footer {
   position: relative;
   display: block;
   
 }
-
+.card-footer a:hover {
+  transform:scale(1.5) ;
+  color: rgb(245, 104, 104);
+}
 .card-section .card .card-footer button {
   position: relative;
   min-width: 120px;
@@ -242,13 +259,17 @@ font-size: 20px;
     max-width: 100%;
   }
 }
+.card-section .card ul {
+    margin:0px;
+    padding:0px;
+}
 
 .card-section .card ul li {
   color: #fffbfb;
-  font-family: Mulish;
-font-style: normal;
+  font-family: system-ui;
+font-style: normal;font-weight:bold;
 font-size: 15px;
-margin-top: 10px;
+margin: 1em 0;
 }
 
 .footer {
@@ -264,9 +285,9 @@ margin-top: 10px;
 
 .footer a {
   color: #fff;
-  transition: all .4s;
+  transition: all .4s ease-in-out;
 }
 
 .footer a:hover {
-  color: #eaeaeb;
+  color: rgb(245, 104, 104);
 }
