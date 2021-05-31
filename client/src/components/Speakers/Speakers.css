@@ -101,6 +101,15 @@ font-size: 20px;
   padding: 15px;
 }
 
+.card-section .card:hover {
+  z-index:1;
+  box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+  transform: scale(1.05); 
+  
+}
+
+
+
 .card-section .card img {
   margin-top: 5px;
   -o-object-fit: cover;
