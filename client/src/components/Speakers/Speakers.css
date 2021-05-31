@@ -104,7 +104,7 @@ color: #333333;
 
 .card ul li,
 .card ul li p {
-  font-family: 'monospace';
+  font-family: monospace;
   font-style: normal;
   font-size: 1.15rem;
   overflow: none;
